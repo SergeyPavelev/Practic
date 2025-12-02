@@ -3,124 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница - Путешествия</title>
+    <title>Салон красоты «Имидж»</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="img/favicon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <div class="logo">
-                <i class="fas fa-globe"></i> Путешествия
+                <img src="https://via.placeholder.com/150x50/FFFFFF/3E2723?text=Имидж" alt="Лого салона">
             </div>
-            <nav>
-                <a href="#hero">Главная</a>
-                <a href="#about">О нас</a>
-                <a href="#features">Преимущества</a>
-                <a href="#testimonials">Отзывы</a>
-                <a href="#gallery">Галерея</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#masters">Мастера</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
             </nav>
+            <button class="btn-primary">Запись онлайн</button>
         </div>
     </header>
-    
+
     <main>
-        <section id="hero" class="hero">
+        <section class="banner">
             <div class="container">
-                <h1>Исследуйте новые горизонты</h1>
-                <p>Откройте для себя удивительные места по всему миру. Наши туры помогут вам создать незабываемые воспоминания и открыть новые культуры.</p>
-                <img src="img/travel-hero.jpg" alt="Путешествие" class="hero-image">
-                <button class="cta-button">Забронировать тур</button>
+                <h1>Подчеркнём вашу природную красоту</h1>
+                <p>Профессиональные услуги для вашего имиджа</p>
             </div>
         </section>
-        
-        <section id="about" class="about">
+    
+        <section id="services" class="services">
             <div class="container">
-                <h2>О нашей компании</h2>
-                <p>Мы — ведущая туристическая компания с более чем 10-летним опытом. Организуем индивидуальные и групповые туры в Европу, Азию и Америку. Наша цель — сделать ваше путешествие комфортным, безопасным и запоминающимся.</p>
-                <p>Почему выбирают нас? Мы предлагаем гибкие маршруты, профессиональных гидов и поддержку 24/7.</p>
-            </div>
-        </section>
-        
-        <section id="features" class="features">
-            <div class="container">
-                <h2>Наши преимущества</h2>
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <i class="fas fa-plane"></i>
-                        <h3>Быстрые перелеты</h3>
-                        <p>Организуем авиабилеты с лучшими тарифами и минимальными пересадками.</p>
+                <h2>Наши услуги</h2>
+                <div class="services-list">
+                    <div class="service-item">
+                        <h3>Стрижка</h3>
+                        <p>От 1500 руб.</p>
                     </div>
-                    <div class="feature-item">
-                        <i class="fas fa-hotel"></i>
-                        <h3>Комфортные отели</h3>
-                        <p>Подбираем отели с высоким рейтингом и отличным сервисом.</p>
+                    <div class="service-item">
+                        <h3>Окрашивание</h3>
+                        <p>От 2500 руб.</p>
                     </div>
-                    <div class="feature-item">
-                        <i class="fas fa-users"></i>
-                        <h3>Групповые туры</h3>
-                        <p>Идеально для семей и друзей — экономично и весело.</p>
+                    <div class="service-item">
+                        <h3>Маникюр</h3>
+                        <p>От 1000 руб.</p>
                     </div>
-                    <div class="feature-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <h3>Безопасность</h3>
-                        <p>Гарантируем полную страховку и поддержку на каждом этапе.</p>
+                    <div class="service-item">
+                        <h3>Визаж</h3>
+                        <p>От 2000 руб.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <section id="testimonials" class="testimonials">
+    
+        <section id="masters" class="masters">
             <div class="container">
-                <h2>Отзывы клиентов</h2>
-                <div class="testimonials-grid">
-                    <div class="testimonial-item">
-                        <p>"Потрясающий тур в Италию! Все было организовано на высшем уровне. Спасибо!"</p>
-                        <cite>- Анна, Москва</cite>
+                <h2>Наши мастера</h2>
+                <div class="masters-list">
+                    <div class="master-item">
+                        <img src="img/Мастер1.jpg" alt="Мастер 1">
+                        <h3>Анна</h3>
+                        <p>Парикмахер</p>
                     </div>
-                    <div class="testimonial-item">
-                        <p>"Путешествие в Таиланд превзошло все ожидания. Рекомендую всем!"</p>
-                        <cite>- Михаил, Санкт-Петербург</cite>
+                    <div class="master-item">
+                        <img src="img/Мастер2.jpg" alt="Мастер 2">
+                        <h3>Мария</h3>
+                        <p>Визажист</p>
                     </div>
-                    <div class="testimonial-item">
-                        <p>"Отличная компания для семейных поездок. Дети были в восторге."</p>
-                        <cite>- Ольга, Екатеринбург</cite>
+                    <div class="master-item">
+                        <img src="img/Мастер3.jpg" alt="Мастер 3">
+                        <h3>Елена</h3>
+                        <p>Ногтевой сервис</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+    
         <section id="gallery" class="gallery">
             <div class="container">
-                <h2>Галерея путешествий</h2>
-                <div class="gallery-grid">
-                    <img src="img/gallery1.jpg" alt="Галерея 1">
-                    <img src="img/gallery2.jpg" alt="Галерея 2">
-                    <img src="img/gallery3.jpg" alt="Галерея 3">
-                    <img src="img/gallery4.jpg" alt="Галерея 4">
+                <h2>Галерея работ</h2>
+                <div class="gallery-list">
+                    <div class="gallery-item">
+                        <img src="img/Работа1.jpg" alt="До">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Работа2.jpg" alt="До">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/Работа3.jpg" alt="До">
+                    </div>
                 </div>
+            </div>
+        </section>
+    
+        <section class="certificate">
+            <div class="container">
+                <h2>Подарочный сертификат</h2>
+                <p>Подарите красоту близким! Сертификат на любую услугу от 1000 руб.</p>
+                <button class="btn-primary">Купить</button>
             </div>
         </section>
     </main>
-    
-    <footer>
+
+    <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Контакты</h3>
-                    <p><i class="fas fa-phone"></i> +7 (123) 456-78-90</p>
-                    <p><i class="fas fa-envelope"></i> info@travel.com</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Социальные сети</h3>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-vk"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-            <p>&copy; 2025 Путешествия. Все права защищены.</p>
+            <p>Адрес: ул. Примерная, 10, Москва</p>
+            <p>Телефон: +7 (123) 456-78-90</p>
+            <p>Режим работы: Пн-Вс 9:00-21:00</p>
         </div>
     </footer>
 </body>
