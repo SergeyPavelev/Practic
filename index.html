@@ -3,113 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Салон красоты «Имидж»</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Прокат «Актив»</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="logo">
-                <img src="https://via.placeholder.com/150x50/FFFFFF/3E2723?text=Имидж" alt="Лого салона">
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#masters">Мастера</a></li>
-                    <li><a href="#gallery">Галерея</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <h1>Актив</h1>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#rent">Что прокатим</a></li>
+                    <li><a href="#how">Как это работает</a></li>
+                    <li><a href="#location">Где нас найти</a></li>
+                    <li><a href="#rules">Правила</a></li>
                 </ul>
-            </nav>
-            <button class="btn-primary">Запись онлайн</button>
-        </div>
+            </div>
+        </nav>
+        <section class="banner">
+            <div class="container">
+                <h2>Свобода движения в любое время года</h2>
+            </div>
+        </section>
     </header>
 
     <main>
-        <section class="banner">
+        <section id="rent" class="rent">
             <div class="container">
-                <h1>Подчеркнём вашу природную красоту</h1>
-                <p>Профессиональные услуги для вашего имиджа</p>
-            </div>
-        </section>
-    
-        <section id="services" class="services">
-            <div class="container">
-                <h2>Наши услуги</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Стрижка</h3>
-                        <p>От 1500 руб.</p>
+                <h2>Что прокатим</h2>
+                <div class="rent-list">
+                    <div class="rent-item">
+                        <img src="img/bike.png" alt="Велосипед">
+                        <h3>Велосипед</h3>
+                        <p>200 руб./час</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Окрашивание</h3>
-                        <p>От 2500 руб.</p>
+                    <div class="rent-item">
+                        <img src="img/samokat.jpg" alt="Самокат">
+                        <h3>Самокат</h3>
+                        <p>150 руб./час</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Маникюр</h3>
-                        <p>От 1000 руб.</p>
+                    <div class="rent-item">
+                        <img src="img/roliki.jpg" alt="Ролики">
+                        <h3>Ролики</h3>
+                        <p>180 руб./час</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Визаж</h3>
-                        <p>От 2000 руб.</p>
+                    <div class="rent-item">
+                        <img src="img/lizi.jpg" alt="Лыжи">
+                        <h3>Лыжи</h3>
+                        <p>250 руб./час</p>
                     </div>
                 </div>
             </div>
         </section>
     
-        <section id="masters" class="masters">
+        <section id="how" class="how">
             <div class="container">
-                <h2>Наши мастера</h2>
-                <div class="masters-list">
-                    <div class="master-item">
-                        <img src="img/Мастер1.jpg" alt="Мастер 1">
-                        <h3>Анна</h3>
-                        <p>Парикмахер</p>
+                <h2>Как это работает</h2>
+                <div class="how-list">
+                    <div class="how-item">
+                        <h3>1. Выбери транспорт</h3>
+                        <p>Выберите подходящий велосипед, самокат или лыжи.</p>
                     </div>
-                    <div class="master-item">
-                        <img src="img/Мастер2.jpg" alt="Мастер 2">
-                        <h3>Мария</h3>
-                        <p>Визажист</p>
+                    <div class="how-item">
+                        <h3>2. Оставь залог</h3>
+                        <p>Оставьте паспорт и залог за оборудование.</p>
                     </div>
-                    <div class="master-item">
-                        <img src="img/Мастер3.jpg" alt="Мастер 3">
-                        <h3>Елена</h3>
-                        <p>Ногтевой сервис</p>
+                    <div class="how-item">
+                        <h3>3. Катайся!</h3>
+                        <p>Наслаждайтесь активным отдыхом.</p>
                     </div>
                 </div>
             </div>
         </section>
     
-        <section id="gallery" class="gallery">
+        <section id="location" class="location">
             <div class="container">
-                <h2>Галерея работ</h2>
-                <div class="gallery-list">
-                    <div class="gallery-item">
-                        <img src="img/Работа1.jpg" alt="До">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="img/Работа2.jpg" alt="До">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="img/Работа3.jpg" alt="До">
-                    </div>
-                </div>
+                <h2>Где нас найти</h2>
+                <p>Адрес прокатной станции: Санкт-Петербург, пр. Энгельса, д. 23</p>
+                <img src="img/map.png" alt="Фото локации">
             </div>
         </section>
     
-        <section class="certificate">
+        <section id="rules" class="rules">
             <div class="container">
-                <h2>Подарочный сертификат</h2>
-                <p>Подарите красоту близким! Сертификат на любую услугу от 1000 руб.</p>
-                <button class="btn-primary">Купить</button>
+                <h2>Правила проката</h2>
+                <ol>
+                    <li>Предъявите паспорт для регистрации.</li>
+                    <li>Оставьте залог в размере стоимости оборудования.</li>
+                    <li>Возраст от 18 лет (для взрослых моделей).</li>
+                    <li>Используйте защитное снаряжение.</li>
+                    <li>Возвращайте оборудование в срок.</li>
+                </ol>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container" id="contacts">
-            <p>Адрес: ул. Примерная, 10, Москва</p>
+        <div class="container">
             <p>Телефон: +7 (123) 456-78-90</p>
-            <p>Режим работы: Пн-Вс 9:00-21:00</p>
+            <div class="weather">
+                <p>Сегодня солнечно, +20°C</p>
+            </div>
         </div>
     </footer>
 </body>
